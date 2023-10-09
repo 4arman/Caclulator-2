@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Engagement&family=Inclusive+Sans&family=Kavivanar&family=Lexend+Tera:wght@200&family=MuseoModerno:ital@1&family=Nunito:wght@800&family=Onest:wght@300&family=Poppins:wght@200&family=Red+Hat+Mono:ital,wght@1,300&family=Roboto&family=Roboto+Mono:wght@700&family=Rubik+Glitch&family=Rubik+Vinyl&family=Shalimar&family=Ubuntu:wght@700&family=Wire+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#b73dc0, #27c0ef);
+}
+
+.block {
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(https://images.hdqwalls.com/download/aqueous-abstract-art-vg-1600x1200.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 20px;
+    height: 80px;
+    width: 320px;
+    padding: 20px;
+    font-size: 45px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px #111;
+    cursor: default;
+    text-align: right;
+}
+
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+button {
+    width: 60px;
+    height: 55px;
+    margin: 10px;
+    font-size: 22px;
+    color: #111;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px #111;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.eval-btn {
+    width: 145px;
+}
+
+button:hover {
+    box-shadow: 0 0 10px #fff;
+    transform: translate(0, -3px);
+}
